@@ -1,4 +1,4 @@
-FROM alpine:3.5
+FROM resin/armhf-alpine:3.5
 
 RUN apk add --no-cache curl jq
 
